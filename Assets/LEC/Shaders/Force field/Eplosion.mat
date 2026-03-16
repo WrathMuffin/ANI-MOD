@@ -7,14 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Force fiield
+  m_Name: Eplosion
   m_Shader: {fileID: -6465566751694194690, guid: 7fba7327fd54e314d81d1ebab5ad445c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ADD_WOBBLE
-  - _ALPHAMODULATE_ON
-  - _DIRECTIONS_Y_DOWN
+  - _ALPHATEST_ON
+  - _DIRECTIONS_X_RIGHT
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -25,8 +25,8 @@ Material:
     RenderType: Transparent
   disabledShaderPasses:
   - MOTIONVECTORS
-  - DepthOnly
   - SHADOWCASTER
+  - DepthOnly
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Base_texture:
-        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -93,48 +93,55 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _2nd_color: 0
     - _ADD_WOBBLE: 1
     - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
+    - _AlphaClip: 1
     - _AlphaToMask: 0
-    - _Blend: 3
+    - _Blend: 2
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
     - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Clip_threshold: 0
-    - _Cull: 0
+    - _Cull: 2
     - _Cutoff: 0.5
-    - _DIRECTIONS: 3
+    - _DIRECTIONS: 1
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
+    - _Dissolve_movespeed: 20
+    - _Dissolve_threshold: 1
+    - _DstBlend: 1
     - _DstBlendAlpha: 1
-    - _Edge_speed: 1
+    - _Edge_speed: 20
     - _Edge_thickness: 1
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _Glow: 2
+    - _Grittiness: 0.68
+    - _Line_strength: 2
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RIm_power: 10
+    - _RIm_power: 4.52
     - _ReceiveShadows: 1
-    - _Rim_glow: 35
+    - _Rim_glow: -50
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 1
-    - _SrcBlend: 2
-    - _SrcBlendAlpha: 0
+    - _Speed_1: 0
+    - _SrcBlend: 5
+    - _SrcBlendAlpha: 1
     - _Surface: 1
     - _Transparency: 1
-    - _Wave_desity: 3
-    - _Wave_height: 0.1
+    - _Wave_desity: 1.5
+    - _Wave_height: 1
     - _Wave_speed: 1
     - _Wobble_density: 0
     - _Wobble_height: 0.5
@@ -145,15 +152,19 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
+    - _1st_color: {r: 1, g: 0.9685426, b: 0.7877358, a: 1}
+    - _2nd_color: {r: 0.8018868, g: 0.51061726, b: 0, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Base_color: {r: 1, g: 0, b: 0, a: 1}
+    - _Base_color: {r: 1, g: 0.6500185, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Edge_color: {r: 1, g: 0, b: 0.18039227, a: 1}
+    - _Edge_color: {r: 1, g: 1, b: 1, a: 1}
+    - _Emision: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Rim_color: {r: 1, g: 0.7529413, b: 0.7960785, a: 1}
+    - _Glow_color: {r: 1, g: 0, b: 0, a: 1}
+    - _Rim_color: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Tiling: {r: 0.1, g: 6.7, b: 0, a: 0}
-    - _Wave_sections: {r: 0, g: 1, b: 0, a: 0}
+    - _Tiling: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Wave_sections: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &3095446642672395523
