@@ -73,13 +73,13 @@ MonoBehaviour:
   m_Name: Sin City-Persona Volume Profile
   m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.VolumeProfile
   components:
-  - {fileID: 8234453888109580285}
   - {fileID: 5010327083284427307}
-  - {fileID: 8554739223281119134}
-  - {fileID: -1107955989306314079}
   - {fileID: -6950380926634257311}
-  - {fileID: -1833486663873298941}
+  - {fileID: 8234453888109580285}
+  - {fileID: -1107955989306314079}
+  - {fileID: 8554739223281119134}
   - {fileID: 6464513863136714908}
+  - {fileID: -1833486663873298941}
 --- !u!114 &5010327083284427307
 MonoBehaviour:
   m_ObjectHideFlags: 3
