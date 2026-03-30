@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
   m_Name: FS Outline
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.FullScreenPassRendererFeature
-  m_Active: 0
+  m_Active: 1
   injectionPoint: 550
   fetchColorBuffer: 0
   requirements: 0
@@ -65,10 +65,10 @@ MonoBehaviour:
     probeSamplingDebugTexture: {fileID: 2800000, guid: 24ec0e140fb444a44ab96ee80844e18e, type: 3}
     probeVolumeBlendStatesCS: {fileID: 7200000, guid: b9a23f869c4fd45f19c5ada54dd82176, type: 3}
   m_RendererFeatures:
-  - {fileID: -4978118395988170145}
   - {fileID: 7833122117494664109}
   - {fileID: -3865390822903168235}
-  m_RendererFeatureMap: 5faa49adb12beabaad6b866f10d7b46c1543cdba865f5bca
+  - {fileID: -4978118395988170145}
+  m_RendererFeatureMap: ad6b866f10d7b46c1543cdba865f5bca5faa49adb12beaba
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -113,13 +113,13 @@ MonoBehaviour:
   m_Settings:
     AOMethod: 1
     Downsample: 0
-    AfterOpaque: 0
+    AfterOpaque: 1
     Source: 1
     NormalSamples: 1
-    Intensity: 0.5
+    Intensity: 2
     DirectLightingStrength: 1
-    Radius: 0.5
-    Samples: 1
+    Radius: 0.15
+    Samples: 0
     BlurQuality: 0
-    Falloff: 50
+    Falloff: 500
     SampleCount: -1
