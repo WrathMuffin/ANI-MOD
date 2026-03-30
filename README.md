@@ -1,6 +1,9 @@
 # GRA-INTER x ANI MOD
 Intermediate Graphics x Animation and modelling
 
+#LAB 2#
+All in one drive: drive.google.com/drive/u/2/folders/1Vzi7W-pGZXdcHcghQKFHEhc5PLoYJVXJ?usp=sharing
+
 #LAB 1#
 Spreadsheet documenting the shot lists: https://docs.google.com/spreadsheets/d/1TtEpafFAfSmeT09-ec66nu40GxLit3jIep-tUDrY6Co/edit?usp=sharing
 
