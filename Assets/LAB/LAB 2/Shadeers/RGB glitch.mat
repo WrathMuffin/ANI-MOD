@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RGB glitch
+  m_Shader: {fileID: -6465566751694194690, guid: 12c84ffb8a656a34b9581996339471f8, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Glitch_map:
+        m_Texture: {fileID: 2800000, guid: ed21da0720238c64eb8c53f1d22067ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMapping_c0cece59acf8481382fcc3f3007274ab_Heightmap_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 94a3862f62ee7a84bb5746a2281cbf8b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMapping_e8149e7318cb4e29abe2b41896ed6869_Heightmap_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 94a3862f62ee7a84bb5746a2281cbf8b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_86452d9f5ea64a9bbfdc3070a17fdbaa_Out_0_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Fullscreen_DepthWrite: 0
+    - _Parallax_RGB: 100
+    - _RGB_strength: 113.3
+    - _Segment_strength_1: 67
+    - _Segment_strength_2: 67
+    - _Segments: 67
+    - _Segments_height_1: 67
+    - _Segments_height_2: 67
+    - _Speed: 1
+    - _Twitch_interval: 1000
+    - _Twitch_speed: 10
+    m_Colors:
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

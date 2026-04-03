@@ -68,13 +68,13 @@ Material:
     - _Blend: 2
     - _BlendModePreserveSpecular: 1
     - _CastShadows: 0
-    - _Cull: 0
+    - _Cull: 1
     - _DstBlend: 1
     - _DstBlendAlpha: 1
-    - _Grain_grittiness: 2
-    - _Grain_speed: 1
+    - _Grain_grittiness: 10
+    - _Grain_speed: 67
     - _Line_speed: 10
-    - _Line_thickness: 0.2
+    - _Line_thickness: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 0
@@ -86,7 +86,7 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _Grain_tiling: {r: 15, g: 50, b: 0, a: 0}
+    - _Grain_tiling: {r: 0, g: 100, b: 0, a: 0}
     - _Scan_color: {r: 3.4028235e+38, g: 3.4028235e+38, b: 3.4028235e+38, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

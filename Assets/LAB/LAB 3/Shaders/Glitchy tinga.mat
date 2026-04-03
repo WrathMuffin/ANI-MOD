@@ -50,11 +50,11 @@ Material:
     - _BlendModePreserveSpecular: 1
     - _CastShadows: 0
     - _Cull: 0
-    - _Dissolve_threshold: 0.01
+    - _Dissolve_threshold: -0.0967
     - _DstBlend: 10
     - _DstBlendAlpha: 10
     - _Glow_amount: 0.15
-    - _Grittiness: 6.7
+    - _Grittiness: 67
     - _Intensity: 10
     - _Line_smoothness: 0
     - _Line_strength: 1
@@ -64,7 +64,7 @@ Material:
     - _RIm_power: 2.67
     - _ReceiveShadows: 0
     - _Rim_glow: 10
-    - _Speed: 6.7
+    - _Speed: 600
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
     - _Surface: 1
